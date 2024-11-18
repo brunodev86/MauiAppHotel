@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="True"
+             BackgroundColor="#F5F5F5">
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="20"
+                         Spacing="15">
+
+        <Label Text="Sobre o Aplicativo" 
+               FontSize="36" 
+               TextColor="#4CAF50"
+               HorizontalOptions="Center" />
+
+        <Frame Padding="20"
+               BackgroundColor="White"
+               CornerRadius="10">
+
+            <VerticalStackLayout Spacing="15">
+                <Label Text="Desenvolvedor: Bruno Rosendo Alves"
+                       FontSize="20" 
+                       TextColor="#333333" />
+
+                <Label Text="Ano de Desenvolvimento: 2024"
+                       FontSize="20" 
+                       TextColor="#333333" />
+
+                
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
